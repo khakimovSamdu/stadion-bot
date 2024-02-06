@@ -1,0 +1,44 @@
+{
+    "Stadions":{
+        "1":{
+            "name":"Abbos",
+            "manzil":"O'zbekiston ko'chasi 112-A",
+            "ish_vaqt":"07:00 dan 00:00 gacha",
+            "narx":"70 000 so'm ",
+            "phone":"+998936675533",
+            "lokatsiya":""
+        },
+        "2":{
+            "name":"Ozod",
+            "manzil":"Nomozgoh mahallasi, 47 - maktab, 1-chisi",
+            "ish_vaqt":"08:00 dan 01:00 gacha",
+            "narx":"70 000 so'm ",
+            "phone":"+998982737401",
+            "lokatsiya":""
+        },
+        "3":{
+            "name":"Begzod",
+            "manzil":"Nomozgoh mahallasi, 47 - maktab, 2-chisi",
+            "ish_vaqt":"07:00 dan 00:00 gacha",
+            "narx":"70 000 so'm ",
+            "phone":"+998982737401",
+            "lokatsiya":""
+        },
+        "4":{
+            "name":"",
+            "manzil":"Nomozgoh mahallasi, 47 - maktab, 3-chisi",
+            "ish_vaqt":"07:00 dan 00:00 gacha",
+            "narx":"70 000 so'm ",
+            "phone":"+998982737401",
+            "lokatsiya":""
+        },
+        "5":{
+            "name":"",
+            "manzil":"qwerth",
+            "ish_vaqt":"07:00 dan 00:00 gacha",
+            "narx":"70 000 so'm ",
+            "phone":"",
+            "lokatsiya":""
+        }
+    }
+}
