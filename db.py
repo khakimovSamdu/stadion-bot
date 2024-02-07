@@ -15,8 +15,9 @@ def get_stadion_by_item(stadion: str):
     else:
         return [] 
     
-def get_stadion_by_id(stadion: str, doc_id: Union[int, str]):
-    if stadion in get_stadions():
-        collection = tindb.table(stadion)
-        item = collection.get(doc_id=doc_id)
-        return item
+
+def get_stadion_malumot(manzil: str):
+    collection = tindb.table("Stadions")
+    items = collection.search(q.manzil==manzil)
+    return items
+

@@ -23,14 +23,16 @@ def stadions_keyboard():
 def item_keyboards(item: str):
     stadions = db.get_stadion_by_item(item)
     keyboards_btns = []
-    row = []
-
-    for item in stadions['manzil']:
-        row.append(KeyboardButton(item, resize_keyboard = True))
-        if len(row)==2:
-            keyboards_btns.append(row)
-            row=[]
-    if row:
-        keyboards_btns.append(row)
-
+    bosh_menu = ["Bosh sahifa 🏠"]
+    for item in stadions:
+        keyboards_btns.append([KeyboardButton(item['manzil'], resize_keyboard = True)])
+    keyboards_btns.append(bosh_menu)
     return ReplyKeyboardMarkup(keyboards_btns)
+
+close = reply_markup=ReplyKeyboardMarkup(
+            [
+                [KeyboardButton(text="❌ Close")]
+            ],
+            resize_keyboard=True
+        )
+    

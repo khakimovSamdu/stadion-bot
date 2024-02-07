@@ -1,44 +1,59 @@
 {
     "Stadions":{
         "1":{
-            "name":"Abbos",
-            "manzil":"O'zbekiston ko'chasi 112-A",
+            "name":"Abbos ",
+            "manzil":"O'zbekiston ko'chasi 112-A uy",
             "ish_vaqt":"07:00 dan 00:00 gacha",
             "narx":"70 000 so'm ",
             "phone":"+998936675533",
-            "lokatsiya":""
+            "location":{
+                "latitude": 39.639701,
+                "longitude": 66.941318
+            }
         },
         "2":{
             "name":"Ozod",
-            "manzil":"Nomozgoh mahallasi, 47 - maktab, 1-chisi",
+            "manzil":"Nomozgoh mahallasi, 47 - maktab, 1-chi gazon",
             "ish_vaqt":"08:00 dan 01:00 gacha",
             "narx":"70 000 so'm ",
             "phone":"+998982737401",
-            "lokatsiya":""
+            "location":{
+                "latitude": 39.639701,
+                "longitude": 66.941318
+            }
         },
         "3":{
             "name":"Begzod",
-            "manzil":"Nomozgoh mahallasi, 47 - maktab, 2-chisi",
+            "manzil":"Nomozgoh mahallasi, 47 - maktab, 2-chi gazon",
             "ish_vaqt":"07:00 dan 00:00 gacha",
             "narx":"70 000 so'm ",
             "phone":"+998982737401",
-            "lokatsiya":""
+            "location":{
+                "latitude": 39.639701,
+                "longitude": 66.941318
+            }
         },
         "4":{
-            "name":"",
-            "manzil":"Nomozgoh mahallasi, 47 - maktab, 3-chisi",
+            "name":"Sardor",
+            "manzil":"Nomozgoh mahallasi, 47 - maktab, 3-chi gazon",
             "ish_vaqt":"07:00 dan 00:00 gacha",
             "narx":"70 000 so'm ",
             "phone":"+998982737401",
-            "lokatsiya":""
+            "location":{
+                "latitude": 39.639701,
+                "longitude": 66.941318
+            }
         },
         "5":{
-            "name":"",
-            "manzil":"qwerth",
+            "name":"Mirjaxon",
+            "manzil":"Bulvard",
             "ish_vaqt":"07:00 dan 00:00 gacha",
             "narx":"70 000 so'm ",
-            "phone":"",
-            "lokatsiya":""
+            "phone":"+998884084304",
+            "location":{
+                "latitude": 39.639701,
+                "longitude": 66.941318
+            }
         }
     }
 }
