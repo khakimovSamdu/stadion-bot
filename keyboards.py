@@ -29,10 +29,21 @@ def item_keyboards(item: str):
     keyboards_btns.append(bosh_menu)
     return ReplyKeyboardMarkup(keyboards_btns)
 
-close = reply_markup=ReplyKeyboardMarkup(
+close =ReplyKeyboardMarkup(
             [
                 [KeyboardButton(text="❌ Close")]
             ],
             resize_keyboard=True
         )
-    
+
+replay_izoh = ReplyKeyboardMarkup(
+    [
+        [KeyboardButton("☺️Menga hamma narsa yoqdi, 5❤️")],
+        [KeyboardButton("☺️Yaxshi, 4⭐️⭐️⭐️⭐️")],
+        [KeyboardButton("🙂Qoniqarli, 3⭐️⭐️⭐️")],
+        [KeyboardButton("☹️Yoqmadi, 2⭐️⭐️")],
+        [KeyboardButton("😤Men shikoyat qilmoqchiman👎🏻")],
+        [KeyboardButton("Bosh sahifa 🏠")],
+    ],
+    resize_keyboard=True
+)

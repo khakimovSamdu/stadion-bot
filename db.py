@@ -1,5 +1,4 @@
 from tinydb import TinyDB, Query
-from typing import Union
 q = Query()
 
 tindb = TinyDB("db.json", indent = 4)

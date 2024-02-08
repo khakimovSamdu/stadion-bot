@@ -1,9 +1,8 @@
 {
     "Stadions":{
         "1":{
-            "name":"Abbos ",
-            "manzil":"O'zbekiston ko'chasi 112-A uy",
-            "ish_vaqt":"07:00 dan 00:00 gacha",
+            "manzil":"O'zbekiston ko'chasi Буғальтскя фирма yonida gazon ",
+            "ish_vaqt":"08:00 dan 00:00 gacha",
             "narx":"70 000 so'm ",
             "phone":"+998936675533",
             "location":{
@@ -12,47 +11,93 @@
             }
         },
         "2":{
-            "name":"Ozod",
-            "manzil":"Nomozgoh mahallasi, 47 - maktab, 1-chi gazon",
-            "ish_vaqt":"08:00 dan 01:00 gacha",
+            "manzil":"Nomozgoh mahallasi, 47 - maktab 3 talik gazon 1-chisi",
+            "ish_vaqt":"09:00 dan 23:00 gacha",
             "narx":"70 000 so'm ",
             "phone":"+998982737401",
             "location":{
-                "latitude": 39.639701,
-                "longitude": 66.941318
+                "latitude": 39.6312560,
+                "longitude": 66.9653090
             }
         },
         "3":{
-            "name":"Begzod",
-            "manzil":"Nomozgoh mahallasi, 47 - maktab, 2-chi gazon",
-            "ish_vaqt":"07:00 dan 00:00 gacha",
+            "manzil":"Nomozgoh mahallasi, 47 - maktab 3 talik gazon 2-chisi",
+            "ish_vaqt":"09:00 dan 23:00 gacha",
             "narx":"70 000 so'm ",
             "phone":"+998982737401",
             "location":{
-                "latitude": 39.639701,
-                "longitude": 66.941318
+                "latitude": 39.6312560,
+                "longitude": 66.9653090
             }
         },
         "4":{
-            "name":"Sardor",
-            "manzil":"Nomozgoh mahallasi, 47 - maktab, 3-chi gazon",
-            "ish_vaqt":"07:00 dan 00:00 gacha",
+            "manzil":"Nomozgoh mahallasi, 47 - maktab 3 talik gazon 3-chisi",
+            "ish_vaqt":"09:00 dan 23:00 gacha",
             "narx":"70 000 so'm ",
             "phone":"+998982737401",
             "location":{
-                "latitude": 39.639701,
-                "longitude": 66.941318
+                "latitude": 39.6312560,
+                "longitude": 66.9653090
             }
         },
         "5":{
-            "name":"Mirjaxon",
-            "manzil":"Bulvard",
+            "manzil":"Paragvay Futbol usti yopiq gazon",
             "ish_vaqt":"07:00 dan 00:00 gacha",
             "narx":"70 000 so'm ",
-            "phone":"+998884084304",
+            "phone":"+998982739075",
             "location":{
-                "latitude": 39.639701,
-                "longitude": 66.941318
+                "latitude": 39.655725,
+                "longitude": 66.007595
+            }
+        },
+        "6":{
+            "manzil":"Trikatejka, Saqriddin Ayniy ko'chasi 3 talig gazon 1-chisi",
+            "ish_vaqt":"09:00 dan 00:00 gacha",
+            "narx":"70 000 so'm ",
+            "phone":"+998905046020",
+            "location":{
+                "latitude": 39.655725,
+                "longitude": 67.007595
+            }
+        },
+        "7":{
+            "manzil":"Trikatejka, Saqriddin Ayniy ko'chasi 3 talig gazon 2-chisi",
+            "ish_vaqt":"09:00 dan 00:00 gacha",
+            "narx":"70 000 so'm ",
+            "phone":"+998905046020",
+            "location":{
+                "latitude": 39.655725,
+                "longitude": 67.007595
+            }
+        },
+        "8":{
+            "manzil":"Trikatejka, Saqriddin Ayniy ko'chasi 3 talig gazon 3-chisi",
+            "ish_vaqt":"09:00 dan 00:00 gacha",
+            "narx":"70 000 so'm ",
+            "phone":"+998905046020",
+            "location":{
+                "latitude": 39.655725,
+                "longitude": 67.007595
+            }
+        },
+        "9":{
+            "manzil":"Dagbitski, Hostel1 Samarakand State yonida gazon",
+            "ish_vaqt":"08:00 dan 23:00 gacha",
+            "narx":"70 000 so'm ",
+            "phone":"+998902703223",
+            "location":{
+                "latitude": 39.671124,
+                "longitude": 66.971179
+            }
+        },
+        "10":{
+            "manzil":"Nomozgoh Jomemasjidi orqa tomonida gazon ",
+            "ish_vaqt":"09:00 dan 23:00 gacha",
+            "narx":"70 000 so'm ",
+            "phone":"+998915215023",
+            "location":{
+                "latitude": 39.634639,
+                "longitude": 66.969473
             }
         }
     }
