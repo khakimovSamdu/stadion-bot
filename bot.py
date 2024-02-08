@@ -82,7 +82,7 @@ Yaxshilashga harakat qilamiz🙏🏻.""",
                 if gazon_data!=[]:
                     bot.send_message(
                         chat_id=user['id'],
-                        text=f'📍 Manzil: {gazon_data["manzil"]}\n⏰ Ish vaqti: {gazon_data["ish_vaqt"]}\n📲 Telefon nomer: {gazon_data["phone"]}\n💰 1 soati uchun narx: {gazon_data["narx"]}',
+                        text=f'📍 Manzil: {gazon_data["manzil"]}\n⏰ Ish vaqti: {gazon_data["ish_vaqt"]}\n💰 1 soati uchun narx: {gazon_data["narx"]}\n📲 Telefon nomer: {gazon_data["phone"]}',
                         reply_markup=keyboards.close
                     )
                     bot.send_location(
@@ -91,9 +91,9 @@ Yaxshilashga harakat qilamiz🙏🏻.""",
                         longitude = gazon_data['location']['longitude'],
                     )
             except:
-                    bot.send_message(chat_id=user['id'], text = "Ikkinchi ")      
+                    bot.send_message(chat_id=user['id'], text = f"Kechirasiz {user['first_name']} siz gazon nomini xato kiritdingiz. Iltimos so'rovlarni to'gri kiriting. Tushinish uchun quyi qismidagi keyboardlardan foydalaning 🔥")      
     else:
-        bot.send_message(chat_id=user['id'], text = "Birinchi ")
+        bot.send_message(chat_id=user['id'], text = f"Kechirasiz {user['first_name']} siz text yubormadingiz. Iltimos so'rovlarni to'gri kiriting. Tushinish uchun quyi qismidagi keyboardlardan foydalaning 🔥")
 
     return "Hello programmer"
 
